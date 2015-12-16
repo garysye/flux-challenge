@@ -1,7 +1,7 @@
 'use strict';
 
 import WebSocket from 'ws';
-import EventEmitter from 'events';
+import {EventEmitter} from 'events';
 
 var ws = new WebSocket('ws://localhost:4000');
 var CHANGE_EVENT = 'changePlanet';

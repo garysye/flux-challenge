@@ -1,7 +1,7 @@
 'use strict';
 
 import AppDispatcher from '../dispatchers/AppDispatcher';
-import EventEmitter from 'events';
+import {EventEmitter} from 'events';
 import SithConstants from '../constants/SithConstants';
 import request from 'superagent';
 import PlanetStore from './PlanetStore';
