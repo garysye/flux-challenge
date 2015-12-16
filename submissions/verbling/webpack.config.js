@@ -13,6 +13,9 @@ module.exports = {
   plugins: [
     new webpack.NoErrorsPlugin(),
   ],
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   module: {
       loaders: [
         {

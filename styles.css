@@ -58,8 +58,13 @@ body {
   margin: 0;
 }
 
+
 .css-slot + .css-slot {
   margin-top: 7px;
+}
+
+.css-sith-alert {
+  color:  #FF0000;
 }
 
 .css-scroll-buttons {
